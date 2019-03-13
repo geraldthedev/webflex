@@ -1,0 +1,20 @@
+#taken{
+
+}
+
+#clickbox{
+    width: 12em;
+    border-radius: 20px;
+}
+
+#newdiv1{
+    background-color:  rgb(47, 56, 79);
+    box-shadow: 30px 10px gray;
+    text-align: center;
+
+    border-radius: 20px;
+    height: 10em;
+    border-width: 20px;
+
+
+}
