@@ -1,0 +1,34 @@
+.navi{
+    background-color:  cadetblue;
+
+}
+
+.navi ul{
+   display: -webkit-inline-flex;
+   display: inline-flex;
+}
+.navi h1{
+    padding: 10px;
+}
+
+.foot{
+    background-color: black;
+    color: white;
+
+}
+
+.foot ul{
+    display: -webkit-inline-flex;
+   display: inline-flex;
+
+}
+
+.foot h1{
+    padding: 10px;
+}
+
+.foot h3{
+    padding: 10px;
+
+}
+
