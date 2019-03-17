@@ -1,10 +1,15 @@
 import React from 'react'
+import Navbar from 'react-bootstrap/Navbar'
 
-function Nav(){
+
+function Nav(props){
     return(
-        <div>
-        Works
-        </div>
+        <>
+        <Navbar bg="light" expand ="lg">
+        <Nav className="navite">
+        </Nav>
+        </Navbar>
+        </>
     )
 }
 
