@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PostIt from './components/PostIt';
+import App from './components/App';
 
 
 
-ReactDOM.render(<PostIt />, document.getElementById("root"))
+ReactDOM.render(<App />,document.getElementById("root"))
