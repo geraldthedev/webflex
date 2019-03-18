@@ -3,17 +3,11 @@
 
 }
 
-.navi ul{
-   display: -webkit-inline-flex;
-   display: inline-flex;
-}
-.navi h1{
-    padding: 10px;
-}
 
 .foot{
     background-color: black;
     color: white;
+
 
 }
 
@@ -32,13 +26,16 @@
 
 }
 
-.playholder{
+/*.playholder{
     background-image: url("./back.jpg");
-    position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    color: white;
+    text-align: center;
+
+
+
 }
 
-
+*/

@@ -2,6 +2,10 @@ import React from 'react';
 
 
 export default class CountUp extends React.Component{
+    constructor(props){
+        super(props);
+    }
+
 
     render(){
         return(

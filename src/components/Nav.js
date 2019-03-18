@@ -1,23 +1,27 @@
 import React from 'react'
-//import Navbar from 'react-bootstrap/Navbar'
+import { Nav } from 'reactstrap'
+import { NavItem } from 'reactstrap'
+import { Button } from 'reactstrap'
 import '../index.css'
 
 
-function Nav(props){
+function Navi(props){
     return(
-        <div className="navi">
-        <nav>
-        <ul>
-        <h1>Home</h1>
-        <h1>Profile</h1>
-        <h1>Projects</h1>
-        <h1>Contact</h1>
-        <h1>About</h1>
-        </ul>
 
-        </nav>
+        <div className="navi">
+        <Nav>
+
+        <NavItem>Home</NavItem>
+        <NavItem>Profile</NavItem>
+        <NavItem>Projects</NavItem>
+        <NavItem>Contact</NavItem>
+        <NavItem>About</NavItem>
+
+
+        </Nav>
         </div>
-    )
+
+    );
 }
 
-export default Nav
+export default Navi
