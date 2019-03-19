@@ -5,7 +5,7 @@ import Footer from './Footer'
 import '../index.css'
 import '../back.jpg'
 import { Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button } from 'reactstrap';
+  CardTitle, CardSubtitle, Button, CardImgOverlay } from 'reactstrap';
 
 
 
@@ -13,14 +13,14 @@ import { Card, CardImg, CardText, CardBody,
 function App(props){
     return(
         <div>
-        <Card inverse>
-        <CardBody>
+        <Card>
+        <CardImgOverlay>
 
         <CardTitle><Nav /></CardTitle>
-        <CardImg top width ="100%" src='back.jpg' />
+        
         <Main />
-        <Footer/>
-        </CardBody>
+        <Footer />
+        </CardImgOverlay>
         </Card>
         </div>
     )

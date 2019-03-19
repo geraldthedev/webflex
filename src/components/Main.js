@@ -4,6 +4,7 @@ import '../index.css'
 
 
 function Main(props){
+
     return(
         <div>
         <CountUp

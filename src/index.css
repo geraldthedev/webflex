@@ -1,10 +1,14 @@
-.navi{
+/*.navi{
     background-color:  cadetblue;
+    color: white;
 
-}
+
+}*/
 
 
-.foot{
+
+
+/*.foot{
     background-color: black;
     color: white;
 
@@ -26,7 +30,9 @@
 
 }
 
-/*.playholder{
+*/
+
+.playholder{
     background-image: url("./back.jpg");
     background-size: cover;
     background-position: center;
@@ -38,4 +44,5 @@
 
 }
 
-*/
+
+
