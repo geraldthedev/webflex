@@ -1,0 +1,48 @@
+/*.navi{
+    background-color:  cadetblue;
+    color: white;
+
+
+}*/
+
+
+
+
+/*.foot{
+    background-color: black;
+    color: white;
+
+
+}
+
+.foot ul{
+    display: -webkit-inline-flex;
+   display: inline-flex;
+
+}
+
+.foot h1{
+    padding: 10px;
+}
+
+.foot h3{
+    padding: 10px;
+
+}
+
+*/
+
+.playholder{
+    background-image: url("./back.jpg");
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    color: white;
+    text-align: center;
+
+
+
+}
+
+
+
