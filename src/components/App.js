@@ -35,10 +35,10 @@ const carStyle = {
 
 
         <CardHeader><Nav /></CardHeader>
-        <CardImg width = "100%" src={require("../back.jpg")} style ={imgStyle}/>
-        <CardImgOverlay>
-        <CardBody style={mainStyle}><Main style={mainStyle} /></CardBody>
-        </CardImgOverlay>
+        <CardImg width = "100%" src={require("../back.jpg")}/>
+
+        <CardBody><Main /></CardBody>
+        
         <CardFooter><Footer /></CardFooter>
 
         </Card>

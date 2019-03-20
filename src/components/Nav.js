@@ -8,8 +8,7 @@ function Navi(props){
 
 const navStyle = {
 
-    background:  'cadetblue',
-    color: 'white',
+    color: 'black',
     padding: '10px',
     alignContent: 'center',
     alignItems: 'center',
@@ -30,7 +29,7 @@ const conStyle ={
         <div className="navi">
         <Nav style={navStyle}>
 
-        <NavItem style={conStyle} >Home</NavItem>
+        <NavItem style={conStyle} onClick={this.handleClick} >Home</NavItem>
         <NavItem style={conStyle}>Profile</NavItem>
         <NavItem style={conStyle}>Projects</NavItem>
         <NavItem style={conStyle}>Contact</NavItem>

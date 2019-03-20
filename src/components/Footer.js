@@ -6,8 +6,7 @@ function Footer(props){
 
 const footNavStyle = {
 
-    background:  'black',
-    color: 'white',
+    color: 'black',
     padding: '10px',
     align: 'center',
     textAlign: 'center'
