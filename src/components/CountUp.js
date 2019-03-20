@@ -3,13 +3,7 @@ import '../index.css'
 
 
 export default class CountUp extends React.Component{
-    constructor(props){
-        super(props);
-
-        
-        this.state ={}
-
-    }
+    
 
     render(){
         return(
