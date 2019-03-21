@@ -10,4 +10,12 @@ export default class Home extends React.Component{
 
         this.state = { text: 'next page' }
     }
+
+    render(){
+        return(
+            <div>
+            {this.props}
+            </div>
+        )
+    }
 }

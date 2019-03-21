@@ -5,12 +5,17 @@ import { Card, CardImg, CardText, CardBody,
 
 
 export default class CountUp extends React.Component{
+    constructor(props){
+        super(props);
+
+        this.state = {};
+    }
 
 
     render(){
         return(
             <div className="playholder">
-            
+
             <CardText>{this.props.name}</CardText>
             <CardText>{this.props.github}</CardText>
             <CardText>{this.props.phone}</CardText>

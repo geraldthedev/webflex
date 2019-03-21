@@ -2,28 +2,38 @@ import React from 'react'
 import '../index.css'
 import { Nav, NavItem, Button } from 'reactstrap'
 
-function Footer(props){
+class Footer extends React.Component{
+constructor(props){
+        super(props);
 
-const footNavStyle = {
+        this.state = {};
+    }
+
+
+render(){
+
+
+    const footNavStyle = {
 
     color: 'black',
     padding: '10px',
     align: 'center',
     textAlign: 'center'
+}
 
-
-};
-
-const footConStyle ={
+    const footConStyle ={
     padding: '10px',
     textAlign: 'center'
-};
+}
 
-const footHeStyle ={
+
+    const footHeStyle ={
     padding: '10px',
     fontWeight: 'bold',
     textAlign: 'center'
 }
+
+
 
     return(
         <div className="foot">
@@ -37,6 +47,7 @@ const footHeStyle ={
        </Nav>
         </div>
     )
+}
 }
 
 export default Footer

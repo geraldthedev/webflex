@@ -10,7 +10,17 @@ import { Card, CardImg, CardText, CardBody,
 
 
 
-function App(props){
+class App extends React.Component{
+
+    constructor(props){
+        super(props);
+
+        this.state = {};
+    }
+
+
+render(){
+
 const mainStyle ={
     alignContent: 'center',
     textAlign: 'center',
@@ -18,9 +28,11 @@ const mainStyle ={
     display: 'flex',
 }
 
-const imgStyle = {
+
+    const imgStyle = {
     display: 'flex',
 }
+
 
 const carStyle = {
 
@@ -35,15 +47,16 @@ const carStyle = {
 
 
         <CardHeader><Nav /></CardHeader>
-        <CardImg width = "100%" src={require("../back.jpg")}/>
+        <CardImg src={require("../back.jpg")}/>
 
         <CardBody><Main /></CardBody>
-        
+
         <CardFooter><Footer /></CardFooter>
 
         </Card>
         </div>
     )
+}
 
 }
 
