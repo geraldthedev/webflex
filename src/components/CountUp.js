@@ -1,23 +1,26 @@
 import React from 'react';
-import '../index.css'
+import '../index.css';
+import { Card, CardImg, CardText, CardBody,
+  CardTitle, CardSubtitle, Button, CardImgOverlay, CardHeader, CardFooter, CardBlock } from 'reactstrap';
 
 
 export default class CountUp extends React.Component{
     constructor(props){
         super(props);
 
-        
-        this.state ={}
-
+        this.state = {};
     }
+
 
     render(){
         return(
             <div className="playholder">
-            <h2>{this.props.name}</h2>
-            <h2>{this.props.github}</h2>
-            <h2>{this.props.phone}</h2>
-            <h2>{this.props.email}</h2>
+
+            <CardText>{this.props.name}</CardText>
+            <CardText>{this.props.github}</CardText>
+            <CardText>{this.props.phone}</CardText>
+            <CardText>{this.props.email}</CardText>
+
             </div>
         )
 

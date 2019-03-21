@@ -27,7 +27,10 @@
     "mongoose": "^5.4.19",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
+    "react-router": "^5.0.0",
     "react-scripts": "^2.1.8",
+    "react-transition": "^1.0.3",
+    "react-transition-group": "^2.6.1",
     "reactstrap": "^7.1.0"
   },
   "browserslist": [

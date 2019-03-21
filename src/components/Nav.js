@@ -1,22 +1,35 @@
 import React from 'react'
-import { Nav, NavItem, Button, } from 'reactstrap'
+import { Nav, NavItem, Button, NavLink } from 'reactstrap'
+import Home from './Home';
+
 
 import '../index.css'
 
 
-function Navi(props){
+class Navi extends React.Component {
 
-const navStyle = {
+    constructor(props){
+        super(props);
+        this.handleClick= this.handleClick.bind(this);
 
-    background:  'cadetblue',
-    color: 'white',
+    }
+    handleClick(){
+
+    }
+
+
+render(){
+
+    const navStyle = {
+
+    color: 'black',
     padding: '10px',
     alignContent: 'center',
     alignItems: 'center',
     display: 'flex'
 
 
-};
+}
 
 const conStyle ={
     padding: '10px',
@@ -24,13 +37,14 @@ const conStyle ={
     alignItems: 'center',
     display: 'flex'
 }
-
     return(
 
         <div className="navi">
         <Nav style={navStyle}>
 
-        <NavItem style={conStyle} >Home</NavItem>
+        <NavItem style={conStyle} onClick={this.handleClick} >
+        <NavLink>Home</NavLink>
+        </NavItem>
         <NavItem style={conStyle}>Profile</NavItem>
         <NavItem style={conStyle}>Projects</NavItem>
         <NavItem style={conStyle}>Contact</NavItem>
@@ -41,6 +55,7 @@ const conStyle ={
         </div>
 
     );
+}
 }
 
 export default Navi
