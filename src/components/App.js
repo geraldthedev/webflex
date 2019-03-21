@@ -5,7 +5,8 @@ import Footer from './Footer'
 import '../index.css'
 import '../back.jpg'
 import { Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button, CardImgOverlay, CardHeader, CardFooter } from 'reactstrap';
+  CardTitle, CardSubtitle, Button, CardImgOverlay, CardHeader, CardFooter } from 'reactstrap'
+import CSSTransition from 'react-transition-group'
 
 
 

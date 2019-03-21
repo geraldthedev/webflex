@@ -1,5 +1,7 @@
 import React from 'react'
 import { Nav, NavItem, Button, NavLink } from 'reactstrap'
+import Home from './Home';
+
 
 import '../index.css'
 
@@ -8,8 +10,11 @@ class Navi extends React.Component {
 
     constructor(props){
         super(props);
+        this.handleClick= this.handleClick.bind(this);
 
-        this.state = {};
+    }
+    handleClick(){
+
     }
 
 
@@ -38,7 +43,7 @@ const conStyle ={
         <Nav style={navStyle}>
 
         <NavItem style={conStyle} onClick={this.handleClick} >
-        <NavLink href ="./Home.js">Home</NavLink>
+        <NavLink>Home</NavLink>
         </NavItem>
         <NavItem style={conStyle}>Profile</NavItem>
         <NavItem style={conStyle}>Projects</NavItem>
