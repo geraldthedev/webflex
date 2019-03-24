@@ -1,6 +1,6 @@
 import React from 'react'
 import '../index.css'
-import { Nav, NavItem, Button } from 'reactstrap'
+
 
 class Footer extends React.Component{
 constructor(props){
@@ -37,14 +37,14 @@ render(){
 
     return(
         <div className="foot">
-       <Nav style={footNavStyle}>
 
-       <NavItem style={footHeStyle}>Connect: </NavItem>
-       <NavItem style={footConStyle}>Github</NavItem>
-       <NavItem style={footConStyle}>Instagram</NavItem>
-       <NavItem style={footConStyle}>Facebook</NavItem>
 
-       </Nav>
+       Connect:
+       Github
+       Instagram
+       Facebook
+
+
         </div>
     )
 }

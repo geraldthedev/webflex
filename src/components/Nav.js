@@ -1,7 +1,7 @@
 import React from 'react'
-import { Nav, NavItem, Button, NavLink } from 'reactstrap'
+
 import Home from './Home';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, NavLink } from "react-router-dom";
 
 
 
@@ -37,33 +37,68 @@ const conStyle ={
     alignItems: 'center',
     display: 'flex'
 }
+
+const Home = () =>(
+    <div>
+    <Home />
+    </div>
+
+);
+
+const Profile = () =>(
+    <div>
+    <Home />
+    </div>
+
+);
+
+const Projects = () =>(
+    <div>
+    <Home />
+    </div>
+
+);
+
+const Contact = () =>(
+    <div>
+    <Home />
+    </div>
+
+);
+
+const About = () =>(
+    <div>
+    <Home />
+    </div>
+
+);
+
     return(
-        <Router>
+
         <div className="navi">
 
-        <Nav style={navStyle}>
-
-        <NavItem style={conStyle} onClick={this.handleClick} >
-        <NavLink href="./components/Home.js">
-         Home</NavLink>
-        </NavItem>
-        <NavItem style={conStyle}>
-        <NavLink>Profile</NavLink>
-        </NavItem>
-        <NavItem style={conStyle}>
-        <NavLink>Projects</NavLink>
-        </NavItem>
-        <NavItem style={conStyle}>
-        <NavLink>Contact</NavLink>
-        </NavItem>
-        <NavItem style={conStyle}>
-        <NavLink>About</NavLink>
-        </NavItem>
-        </Nav>
 
 
+
+       <Link to="/components/Home"> Home</Link>
+
+
+        Profile
+
+
+        Projects
+
+
+        Contact
+
+
+        About
+
+
+
+        <Route path="/components/Home" component={ Home }/>
         </div>
-        </Router>
+
 
     );
 }

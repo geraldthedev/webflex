@@ -4,8 +4,7 @@ import Main from './Main'
 import Footer from './Footer'
 import '../index.css'
 import '../back.jpg'
-import { Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button, CardImgOverlay, CardHeader, CardFooter } from 'reactstrap'
+import { Route, Link } from 'react-router-dom';
 import CSSTransition from 'react-transition-group'
 
 
@@ -41,20 +40,18 @@ const carStyle = {
 }
 
 
+
+
     return(
         <div>
-        <Card style={carStyle}>
+        <Nav />
 
 
+        <Main />
 
-        <CardHeader><Nav /></CardHeader>
-        <CardImg src={require("../back.jpg")}/>
+        <Footer />
 
-        <CardBody><Main /></CardBody>
 
-        <CardFooter><Footer /></CardFooter>
-
-        </Card>
         </div>
     )
 }
